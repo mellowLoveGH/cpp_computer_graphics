@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\entry">
+      <UniqueIdentifier>{b9e5ea92-db63-4e49-945a-c0b49f382646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\maths">
+      <UniqueIdentifier>{5c7f71b0-22f4-416e-a6be-c6dd48b90a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\raytracer">
+      <UniqueIdentifier>{5ff31ab7-d038-404d-b606-54a908cc0591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\raytracer\Geometry">
+      <UniqueIdentifier>{dac70257-a443-4b5a-9ed0-3e12e811687e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\raytracer\Material">
+      <UniqueIdentifier>{b408e3b7-48fd-4c51-9986-4a278ceff197}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="letter.h">
+      <Filter>源文件\entry</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>源文件\entry</Filter>
+    </ClInclude>
+    <ClInclude Include="mathstypes.h">
+      <Filter>源文件\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="plane.h">
+      <Filter>源文件\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>源文件\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>源文件\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="plane2.h">
+      <Filter>源文件\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>源文件\raytracer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>源文件\raytracer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="raysphere.h">
+      <Filter>源文件\raytracer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="rayplane.h">
+      <Filter>源文件\raytracer\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>源文件\raytracer\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="colour.h">
+      <Filter>源文件\raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>源文件\raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>源文件\raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>源文件\raytracer</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>源文件\raytracer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="letter.cpp">
+      <Filter>源文件\entry</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle.cpp">
+      <Filter>源文件\raytracer\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="raysphere.cpp">
+      <Filter>源文件\raytracer\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="rayplane.cpp">
+      <Filter>源文件\raytracer\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>源文件\raytracer\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>源文件\raytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="world.cpp">
+      <Filter>源文件\raytracer</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>源文件\entry</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件\entry</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

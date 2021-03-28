@@ -1,0 +1,7 @@
+﻿  Scan.cpp
+c:\users\13418\desktop\practice\learn30\learn30\scan.cpp(46): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\13418\desktop\practice\learn30\learn30\scan.cpp(47): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\13418\desktop\practice\learn30\learn30\scan.cpp(48): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\13418\desktop\practice\learn30\learn30\scan.cpp(103): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\13418\desktop\practice\learn30\learn30\scan.cpp(104): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  learn30.vcxproj -> C:\Users\13418\Desktop\practice\learn30\Debug\learn30.exe

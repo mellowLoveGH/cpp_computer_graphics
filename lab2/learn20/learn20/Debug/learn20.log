@@ -1,0 +1,8 @@
+﻿  transformation.cpp
+c:\users\13418\desktop\practice\learn20\learn20\transformation.cpp(14): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\13418\desktop\practice\learn20\learn20\transformation.cpp(28): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\13418\desktop\practice\learn20\learn20\transformation.cpp(44): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\13418\desktop\practice\learn20\learn20\transformation.cpp(58): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\13418\desktop\practice\learn20\learn20\transformation.cpp(82): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\13418\desktop\practice\learn20\learn20\transformation.cpp(123): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+  learn20.vcxproj -> C:\Users\13418\Desktop\practice\learn20\Debug\learn20.exe
